@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="60dip"
+            android:layout_height="30dp"
+            android:text="学号"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/job"
+            android:layout_width="200dip"
+            android:layout_height="30dp"
+            android:text="姓名"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/addr"
+            android:layout_width="150dip"
+            android:layout_height="30dp"
+            android:text="实验成绩"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+    <ListView
+        android:id="@+id/lv_experimentgrade"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="#FF909090"  >
+    </ListView>
+
+
+</LinearLayout>

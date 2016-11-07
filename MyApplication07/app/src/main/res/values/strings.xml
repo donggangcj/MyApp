@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application07</string>
+    <string name="Add">新增</string>
+    <string name="ListAll">刷新</string>
+    <string name="Onduty">点名</string>
+    <string name="Grademanage">成绩管理</string>
+
+</resources>
